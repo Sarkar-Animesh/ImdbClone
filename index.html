@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMDb Clone</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/0ac69b2e7d.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="headingcontainer">
+            <h1 class="Page-title">IMDb Clone</h1>
+        </div>
+        <nav>
+            <ul >
+                <li><a href="index.html" id="homeTab"><i class="fa-solid fa-house"></i>  Home</a></li>
+                <li><a href="favourite.html" id="favoritesTab"><i class="fa-solid fa-heart"></i>  Favorite Movies</a></li>
+            </ul>
+        </nav>
+        
+        <div class="search-container">
+            <input type="text" id="searchInput" placeholder="Search for a movie...">
+            <button id="searchButton">Search</button>
+        </div>
+    </header>
+    <main>
+        <div id="searchResults"></div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
